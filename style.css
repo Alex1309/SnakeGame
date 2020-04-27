@@ -1,0 +1,82 @@
+canvas { 
+    background:white;   
+    display: block;
+    margin-right: auto;
+    border: 25px solid #FBDC30;
+    margin-left: auto;
+}
+#container{
+    width: 600px;
+    height: 670px;
+    background-color: transparent;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#container2{
+    width: 550px;
+    height: 170px;
+    display: block;
+    background-color: FFFAD0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#container3{
+    width: 498px;
+    height: 70px;
+    background-color:#F0D22B ;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+img[id="fruit"]{
+    display: none;
+}
+img[id="name"]{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+img[id="scoreApple"]{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 2px;
+}
+h1{
+    position: relative;
+    left: 40px;
+    bottom: 30%;
+    margin-right: 10px;
+    font-size: 24px;   
+}
+.swal-overlay {
+    background-color:rgb(0, 0, 0,0.75);
+  }
+.swal-text {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.swal-icon {
+   width: 250px;
+   height: 240px;  
+}
+.swal-button {
+   background-color: #8A76FF;
+   color: white;
+ }
+.swal-modal {
+    width: 280px;
+    height: 350px;
+    background-color:#C0C3FF;
+  }
+.swal-footer {
+    text-align: center;
+  }
+  .swal-button:focus {
+    box-shadow: none;
+  }
